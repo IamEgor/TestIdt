@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestIdt</string>
+
+    <!-- Input screen -->
+    <string name="input_title">Enter the desired table dimensions</string>
+    <string name="input_rows_label">Rows (%1$d – %2$d)</string>
+    <string name="input_cols_label">Columns (%1$d – %2$d)</string>
+    <string name="input_generate">Generate</string>
+
+    <!-- Table screen -->
+    <string name="table_edit_title">Edit Cell</string>
+    <string name="table_edit_save">Save</string>
+    <string name="table_edit_cancel">Cancel</string>
+    <string name="table_loading">Generating data…</string>
+    <string name="table_generation_error">Failed to generate table.</string>
+    <string name="table_general_error">Failed to load table because of %s</string>
+
+    <!-- Validation errors -->
+    <string name="error_invalid_rows">Enter valid number of rows</string>
+    <string name="error_invalid_cols">Enter valid number of columns</string>
+    <string name="error_rows_range">Rows must be between %1$d and %2$d</string>
+    <string name="error_cols_range">Columns must be between %1$d and %2$d</string>
+</resources>
